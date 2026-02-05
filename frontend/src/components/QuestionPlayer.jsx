@@ -7,7 +7,7 @@ const QuestionPlayer = ({ sessionId }) => {
   const fetchQuestion = async () => {
     try {
       const response = await fetch(
-        `http://localhost:8000/interview/question?session_id=${sessionId}`,
+        `https://interviewly-rjeu.vercel.app/interview/question?session_id=${sessionId}`,
       );
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
