@@ -173,6 +173,24 @@ function App() {
                 <span className="hidden md:block text-sm opacity-90">
                   {role ? `${role} (${seniority})` : "Ready to Interview"}
                 </span>
+                <a
+                  href="/landing"
+                  className="text-sm text-white/90 hover:underline ml-2"
+                >
+                  Home
+                </a>
+                <a
+                  href="/pricing"
+                  className="text-sm text-white/90 hover:underline ml-2"
+                >
+                  Pricing
+                </a>
+                <a
+                  href="/privacy"
+                  className="text-sm text-white/90 hover:underline ml-2"
+                >
+                  Privacy
+                </a>
               </div>
             </div>
           </header>
